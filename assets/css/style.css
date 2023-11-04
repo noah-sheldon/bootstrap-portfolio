@@ -55,3 +55,21 @@ p {
   border-color: black;
   margin-right: 20px ;
 }
+
+.profile-picture {
+  border-radius: 250px;
+  height: 250px;
+  width: 250px;
+}
+
+.jumbotron {
+  background-image: url("../images/bg-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#about-me {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 35px;
+}
