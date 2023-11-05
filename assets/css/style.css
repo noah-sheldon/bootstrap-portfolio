@@ -43,7 +43,7 @@ p {
   border-width: 1px;
   border-style: solid;
   border-color: #084461;
-  margin-right: 20px ;
+  margin-right: 20px;
 }
 
 .btn-github {
@@ -53,7 +53,7 @@ p {
   border-width: 1px;
   border-style: solid;
   border-color: black;
-  margin-right: 20px ;
+  margin-right: 20px;
 }
 
 .profile-picture {
@@ -69,7 +69,7 @@ p {
   background-repeat: no-repeat;
 }
 
-#about-me {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 35px;
+#jumbo-button {
+  height: 25%;
+  border-radius: 50px;
 }
