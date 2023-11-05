@@ -43,7 +43,7 @@ p {
   border-width: 1px;
   border-style: solid;
   border-color: #084461;
-  margin-right: 20px ;
+  margin-right: 20px;
 }
 
 .btn-github {
@@ -53,5 +53,23 @@ p {
   border-width: 1px;
   border-style: solid;
   border-color: black;
-  margin-right: 20px ;
+  margin-right: 20px;
+}
+
+.profile-picture {
+  border-radius: 250px;
+  height: 250px;
+  width: 250px;
+}
+
+.jumbotron {
+  background-image: url("../images/bg-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#jumbo-button {
+  height: 25%;
+  border-radius: 50px;
 }

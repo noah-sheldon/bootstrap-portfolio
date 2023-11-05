@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="utf-8">
@@ -21,23 +21,68 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#aboutme">About Me</a>
                     <a class="nav-link active" aria-current="page" href="#">Projects</a>
                     <a class="nav-link active" href="#">Skills</a>
                     <a class="nav-link active" href="#">Contact Me</a>
                 </div>
                 <div class="navbar-nav ms-auto">
-                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+                    <link rel="stylesheet"
+                        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
                     <a href="https://github.com/noah-sheldon/" class="btn btn-github btn-lg">
                         <i class="fa fa-github"></i>
-                        </a>
-                    <a href="https://api.whatsapp.com/send?phone=447552839576" class="btn btn-whatsapp btn-lg" target="_blank">
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=447552839576" class="btn btn-whatsapp btn-lg"
+                        target="_blank">
                         <i class="fa fa-whatsapp"></i>
-                        </a>
-                    <a href="https://www.linkedin.com/in/noah--sheldon/" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
+                    </a>
+                    <a href="https://www.linkedin.com/in/noah--sheldon/" title="LinkedIn"
+                        class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
                 </div>
             </div>
         </div>
     </nav>
+    <!-- Jumbotron -->
+    <div class="p-5 mb-4 bg-dark jumbotron">
+        <div class="container-fluid py-5 w-100 h-100">
+            <div class="row justify-content-evenly">
+                <img class="col-sm-12 col-md-6 col-lg-3 profile-picture p-0 border border-white border-3"
+                    src="./assets/images/profile_picture.png" alt="Noah Sheldon's Picture">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="row  justify-content-center ms-5 mt-5 text-md-center text-sm-center text-lg-start">
+                        <h1 class="display-5 fw-bold  text-white ">Noah Sheldon</h1>
+                        <p class=" fs-4 fw-bold text-white">Full Stack Python/React Developer
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-9 col-sm-9 col-md-6 col-lg-3">
+                    <div class="row justify-content-center align-items-center ms-5 mt-5">
+                        <button id="jumbo-button" class=" btn btn-success btn-lg fw-bold py-4" type="button">Contact Me
+                            Now!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Me Section -->
+    <div class="container border border-secondary border-5 px-5 py-5 mx-6 my-5">
+        <div id="aboutme" class="row text-white">
+            <div class="col-md-2 col-lg-2 col-xl-2">
+                <h2 class="fw-bold d-none d-sm-none d-md-inline">About Me</h2>
+                </div>
+                <div class=" col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 fs-4"  >
+                <p>Hello, I am Noah Sheldon, a developer from London, United Kingdom.</p>
+                <p class="">I am passionate about web development and python and I am always looking for opportunities to grow my skills and
+                    knowledge. I am a result-oriented Python developer with 4 years of experience in designing, developing, and maintaining software applications. I am proficient in 
+                    leveraging Python's capabilities to deliver high-quality, efficient, and scalable solutions. I am adept at collaborating with cross-functional teams 
+                    to achieve project goals and meet deadlines. I have experience with full software development cycle, architecting scalable platforms, object-oriented programming, and agile methodologies. I have developed JSON based REST APIs in flask. I have been responsible for the project monitored on 
+                    JIRA. I have hands on experience with git/version control. I have excellent debugging, problem solving and test-driven development (TDD) skills. I have performed code 
+                    reviews and implemented best pythonic practices. I have excellent written and oral and communication skills </p>
+                <p>In my free time, I enjoy badminton and I am actively involved in church helping local communities.</p>
+            </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
