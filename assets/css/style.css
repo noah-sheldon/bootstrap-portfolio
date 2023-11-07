@@ -68,3 +68,12 @@ p {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.box a {
+  border: 1px solid black;
+}
+
+.box a:hover {
+  box-shadow: 0 3px 10px rgb(0, 0, 0) !important;
+  
+}
